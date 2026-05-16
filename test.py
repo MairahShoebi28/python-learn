@@ -1,4 +1,6 @@
-# {import pandas
+#TO RUN USE SHORTCUT CTRL R AND THEN CTRL R
+# {import pandas #learning about different packages in python
+# # Learning about printing statements
 # print("Hello world")
 # print(4)
 # # heyy
@@ -14,7 +16,7 @@
 # print("hey",8,9,sep="-")
 
 
-
+#DATA TYPES
 # a= complex(5,7)
 # b= "word"
 # c= True
@@ -319,3 +321,29 @@ print(a[-4:-2])#len-4 to (len-2)-1 so from 1 to 2 so  pp
 pie="applepie"
 print(pie[:5]) #Slicing from Start                    apple
 print(pie[5:])#Slicing till End                       pie
+
+"""STRING METHODS"""
+str1="  !!AbcDeFG!!"
+print(str1.upper())
+
+print(str1.lower())
+
+print(str1.strip())
+print(str1.strip("!"))
+print(str1.rstrip())
+print(str1.rstrip("!"))
+print(str1.lstrip())
+print(str1.lstrip("!"))
+
+print(str1.replace("!","*"))
+print(str1.replace("!","*",count=3))
+
+str2="Silver Spoon"
+print(str2.split(" "))
+print(str2.split())
+print(str2.split("o"))
+print(str2.split("o",maxsplit=1))
+print(str2.split("k"))
+
+str3="hello welcome to my file."
+print(str3.capitalize())
